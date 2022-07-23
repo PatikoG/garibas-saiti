@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    justify-content: center;
+    
+}
+
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkslategrey;
+}
+
+.tel{
+    color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.cell{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.mailheader {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right{
+    margin-right: 10px;
+}
+
+.maillogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+
+
+.logo{
+    
+    width: 200px;
+
+
+    
+}
+
+.address{
+    margin-right: 75px;
+}
+
+
+.modernhouse{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.satauri{
+    margin-bottom: 30px;
+
+}
+
+.textismn{
+    flex-direction: column;
+}
+
+.info{
+    align-self: center;
+    width: 200px;
+    margin-top:100px;
+}
+
+.baiti{
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.serviceHeader{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.forgrid{
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    justify-content: center;
+    row-gap: 64px;
+    margin-top: 111px;
+    
+}
+
+.forgrid img{
+    width: 350px;
+    border-radius: 8px;
+   
+}
+
+.design img{
+    height: 233px;
+}
+
+.forgrid p{
+    text-align: center;
+    margin-top: 8px;
+    border: 5px solid rgb(101, 101, 101);
+    border-radius: 8px;
+}
+
+
+.build{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer{
+    height:300px;
+    background-color: rgb(255, 142, 13);
+    margin-top: 200px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.secondlogo{
+    width: 170px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.contactinfos{
+   text-align: center; 
+   font-size: 30px;
+   margin-top: 5px;
+}
+
+
+.infoss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconphoto{
+    width: 40px;
+    margin-left: 40px;
+}
+
+.phone{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.numberG{
+    margin-left: 7px;
+    font-size: larger;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+
+.mailicon{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.mailinfo{
+    margin-left: 15px;
+    color: black;
+    font-family:'Big Shoulders Display' ;
+    font-size: 20px;
+}
+
+@media screen and (min-width:950px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        height: 300px;
+        
+    }
+
+    .logo {
+        width: 300px;
+        margin-left: 150px;
+    }
+
+    .right{
+        width: 300px;
+    }
+    .cell{
+        width: 50px;
+        height: 50px;
+    }
+
+    .maillogo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .right span{
+       font-size: 25px;
+    }
+
+    .modernhouse{
+        flex-direction: row-reverse;
+
+    }
+    .baiti{
+        width: 400px;
+        height: 350px;
+    }
+
+    .satauri{
+        width: 600px;
+    }
+    .textismn{
+        display: flex;
+        align-items: center;
+    }
+
+    .text{
+        font-size: 20px;
+        width: 500px;    
+    }
+
+
+     .forgrid{
+        grid-template-columns: repeat(2, 350px);
+        column-gap: 40px;
+    }
+
+    .forgrid p{
+        font-size: 20px;
+    }
+
+
+    .secondlogo{
+        width: 300px;
+    
+    }
+
+    .contactinfos{
+        margin-top: 40px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1375px) {
+    .logo{
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    .baiti{
+        width: 600px;
+        height: 500px;
+    }
+
+    .textismn{
+        width: 800px;
+    }
+
+    .forgrid{
+        grid-template-columns: repeat(3, 350px);
+    }
+
+
+    .contactinfos{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .secondlogo{
+        width: 450px;
+    }
+
+    .iconphoto {
+        width: 64px;
+       
+    }
+
+    .numberG{
+        font-size: 30px;
+    }
+
+    .mailicon {
+        width: 66px;
+        
+    }
+    
+    .mailinfo{
+        font-size: 30px;
+    }
+
+    
+    }
