@@ -22,6 +22,18 @@ header{
     background-color:darkslategrey;
 }
 
+.languages p{
+    color: rgb(109, 231, 231);
+}
+
+.languages{
+    display: flex;
+    column-gap: 20px;
+    
+    transform: translate(-17px, 80px);
+    
+}
+
 .tel{
     color: white;
     display: flex;
@@ -152,6 +164,7 @@ footer{
     height:300px;
     background-color: rgb(255, 142, 13);
     margin-top: 200px;
+    
 }
 
 .contact{
@@ -168,16 +181,18 @@ footer{
 }
 
 .contactinfos{
-   text-align: center; 
+   text-align:end; 
    font-size: 30px;
    margin-top: 5px;
+   margin-right: 40px;
 }
 
 
 .infoss{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    margin-right: 10px;
 }
 
 .iconphoto{
@@ -227,6 +242,16 @@ footer{
         height: 300px;
         
     }
+
+
+    .languages{
+        display: flex;
+        column-gap: 20px;
+        
+        transform: translate(-48px, 112px);
+    }
+        
+    
 
     .logo {
         width: 300px;
@@ -315,6 +340,10 @@ footer{
         grid-template-columns: repeat(3, 350px);
     }
 
+
+    .languages p{
+        font-size: 30px;
+    }
 
     .contactinfos{
         font-size: 40px;
