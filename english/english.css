@@ -19,7 +19,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color:darkslategrey;
+    background-color: rgb(255, 142, 13);
 }
 
 .languages p{
@@ -68,7 +68,7 @@ header{
 
 .logo{
     
-    width: 200px;
+    width: 100px;
 
 
     
@@ -252,7 +252,8 @@ footer{
     
 
     .logo {
-        width: 300px;
+        width: 215px;
+        height: 300px;
         margin-left: 150px;
     }
 
@@ -307,7 +308,8 @@ footer{
 
 
     .secondlogo{
-        width: 300px;
+        width: 215px;
+        height: 300px;
     
     }
 
@@ -321,7 +323,8 @@ footer{
 
 @media screen and (min-width:1375px) {
     .logo{
-        width: 350px;
+        width: 260px;
+        height: 265px;
         margin-top: 30px;
     }
 
@@ -349,7 +352,8 @@ footer{
     }
 
     .secondlogo{
-        width: 450px;
+        width: 260px;
+        height: 265px;
     }
 
     .iconphoto {
